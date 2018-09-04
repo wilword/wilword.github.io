@@ -23,6 +23,12 @@
             vertical-align: middle;
         }
 
+.footer2 {
+      text-align: center;
+      display: table-cell;
+      vertical-align: bottom;
+}
+
 .footer {
       <--position: fixed;
       left: 0;
