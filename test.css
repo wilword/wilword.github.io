@@ -6,17 +6,20 @@
       text-align: center;
     }
 
-#container {
-    display: table;
-    height: 400px;
-    margin: 0 auto;
-    width: 400px;
-}
-.content {
-    background: #f2f2f2;
-    padding: 40px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}
+ html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        body {
+            display: table;
+        }
+
+        .my-block {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
 
