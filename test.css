@@ -23,19 +23,15 @@
             vertical-align: middle;
         }
 
-.footer2 {
-      text-align: center;
-      display: table-cell;
-      vertical-align: bottom;
+.column {
+    float: left;
+    width: 50%;
 }
 
-.footer {
-      <--position: fixed;
-      left: 0;
-      bottom: 0;-->
-      /*width: 100%;*/
-      background-color: lightblue;  
-      color: green;
-      text-align: center;
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
