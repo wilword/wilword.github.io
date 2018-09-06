@@ -41,10 +41,12 @@
     fload: left;
     width: 100px;
     background-color: #F09A9D;
+    text-align: right;
 }
 .wil-status {
     float: right;
     width: 100px;
     background-color: #F09A9D;
+    text-align: left;
 }
 
