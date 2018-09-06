@@ -37,3 +37,14 @@
     clear: both;
 }
 
+.wil-declaration {
+    fload: left;
+    width: 100px;
+    background-color: #F09A9D;
+}
+.wil-status {
+    float: right;
+    width: 100px;
+    background-color: #F09A9D;
+}
+
