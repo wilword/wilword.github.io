@@ -48,9 +48,7 @@
     width: 50%;
     height: 50%;
     background-color: lightyellow;
-    display: table-cell;
     text-align: right;
-    vertical-align: middle;
 }
 .wil-status {
     /*float: right;*/
