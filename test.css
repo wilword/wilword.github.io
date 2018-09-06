@@ -44,7 +44,7 @@
     text-align: right;
 }
 .wil-status {
-    float: right;
+    /*float: right;*/
     width: 100px;
     background-color: #F09A9D;
     text-align: left;
