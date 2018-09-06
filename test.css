@@ -46,7 +46,7 @@
 .wil-declaration {
     float: left;
     width: 50%;
-    height: 100%;
+    height: 50%;
     background-color: lightyellow;
     display: table-cell;
     text-align: right;
@@ -54,7 +54,7 @@
 }
 .wil-status {
     /*float: right;*/
-    height: 100%;
+    height: 50%;
     background-color: orange;
     text-align: left;
     vertical-align: middle;
