@@ -49,11 +49,13 @@
     height: 100%;
     background-color: lightyellow;
     text-align: right;
+    vertical-align: middle;
 }
 .wil-status {
     /*float: right;*/
     height: 100%;
     background-color: orange;
     text-align: left;
+    vertical-align: middle;
 }
 
