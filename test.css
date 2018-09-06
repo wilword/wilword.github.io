@@ -1,61 +1,35 @@
-  * {
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-    }  
-
-    body {
-      background-color: lightblue;
-    }
-    
-    /*h1,h2,h3,p {
-      text-align: center;
-    }*/
-
-    html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            width: 100%;
-        }
-
-        body {
-            display: table;
-        }
-
-        .my-block {
-            text-align: center;
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-.column {
-    float: left;
-    width: 50%;
-    text-align: center;
-    vertical-align: middle;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  height: 100%;
 }
 
-.wil-declaration {
-    float: left;
-    width: 50%;
-    height: 50%;
-    background-color: lightyellow;
-    text-align: right;
-}
-.wil-status {
-    /*float: right;*/
-    height: 50%;
-    background-color: orange;
-    display: table-cell;
-    text-align: left;
-    vertical-align: middle;
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 10px;
 }
 
+.right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-item {
+  padding: 5px;
+}
+
+p {
+  font-size: 30px;
+
+}
