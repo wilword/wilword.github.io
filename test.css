@@ -46,14 +46,14 @@
     fload: left;
     width: 50%;
     height: 100px;
-    background-color: #F09A9D;
+    background-color: lightyellow;
     text-align: right;
 }
 .wil-status {
     /*float: right;*/
     width: 50%;
     height: 100px;
-    background-color: #F09A9D;
+    background-color: lightred;
     text-align: left;
 }
 
