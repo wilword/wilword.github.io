@@ -56,6 +56,7 @@
     /*float: right;*/
     height: 50%;
     background-color: orange;
+    display: table-cell;
     text-align: left;
     vertical-align: middle;
 }
