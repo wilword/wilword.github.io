@@ -6,25 +6,33 @@
 }
 
 .menu-container {
-  
+  background-color: orange;
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
+  border: 1px solid white;
   background-color: red;
   display: flex;
+  width: 900px;
+  justif-content: space-around;
 }
 
 .sidebar {
+  border: 1px solid white;
   background-color: blue;
   display: flex;
 }
 
 .content {
+  border: 1px solid white;
   background-color: green;
   display: flex;
 }
 
 .footer {
+  border: 1px solid white;
   background-color: yellow;
   display: flex;
 }
