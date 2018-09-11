@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   box-seizing: border-box;
-  background-color: gray;
-  color: white;
+  background-color: #28502e; /*Dark Green*/
+  color: #1b2f33; /*Dark dark green*/
 }
 
 .menu-container {
-  background-color: orange;
   display: flex;
   justify-content: center;
   padding: 5px 0;
@@ -15,7 +14,6 @@
 
 .menu {
   border: 1px solid white;
-  background-color: red;
   display: flex;
   width: 900px;
   justify-content: space-around;
@@ -23,34 +21,28 @@
 
 .sidebar {
   border: 1px solid white;
-  background-color: blue;
   display: flex;
 }
 
 .content {
   border: 1px solid white;
-  background-color: green;
   display: flex;
 }
 
 .footer {
   border: 1px solid white;
-  background-color: yellow;
   display: flex;
 }
 
 .header-container {
   display: flex;
-  background-color: pink;
   justify-content: center;
 }
 
 .header {
   display: flex;
-  background-color: lightblue;
   justify-content: space-between;
 }
 
 p {
-  color: white;
 }
