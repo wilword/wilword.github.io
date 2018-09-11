@@ -10,6 +10,7 @@
   background-color: orange;
   display: flex;
   justify-content: center;
+  padding: 20px 0;
 }
 
 .menu {
