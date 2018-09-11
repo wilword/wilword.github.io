@@ -18,7 +18,7 @@
   background-color: red;
   display: flex;
   width: 900px;
-  justif-content: space-around;
+  justify-content: space-around;
 }
 
 .sidebar {
