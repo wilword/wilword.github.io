@@ -38,6 +38,18 @@
   display: flex;
 }
 
+.header-container {
+  display: flex;
+  background-color: pink;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  background-color: lightblue;
+  justify-content: space-between;
+}
+
 p {
   color: white;
 }
