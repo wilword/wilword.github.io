@@ -26,6 +26,11 @@
   flex-direction: column;
 }
 
+.raceholder {
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-item {
   /*padding: 5px;*/
 }
