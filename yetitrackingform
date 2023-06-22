@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="GarminLiveTrack">Garmin LiveTrack</label><br>
+  <input type="text" id="livetrack" name="livetrack" value=""><br>
+  <label for="ROADiD_Ecrumbs">ROADiD Ecrumbs</label><br>
+  <input type="text" id="ecrumbs" name="ecrumbs" value=""><br>
+  <label for="Garmin_InReach">Garmin InReach</label><br>
+  <input type="text" id="inreach" name="inreach" value=""><br><br>
+  
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+<?php
+if( isset($_POST['firstname'] ) && isset( $_POST['lastname'] ) )
+{
+    $txt= $_POST['firstname'].' - '.$_POST['lastname'] . PHP_EOL; 
+    file_put_contents('fields.txt', $txt, FILE_APPEND);
+}
+?>
+
+</body>
+</html>
+
