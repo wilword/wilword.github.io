@@ -26,6 +26,12 @@
   flex-direction: column;
 }
 
+.messageholder {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
 .raceholder {
   display: flex;
   flex-direction: column;
