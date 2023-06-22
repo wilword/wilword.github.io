@@ -26,20 +26,6 @@
   flex-direction: column;
 }
 
-.messageholder {
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-}
-
-.raceholder {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 500px;
-  margin: 500px;
-}
-
 .flex-item {
   /*padding: 5px;*/
 }
