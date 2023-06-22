@@ -13,17 +13,17 @@
   <input type="text" id="inreach" name="inreach" value=""><br><br>
   
   <input type="submit" value="Submit">
-</form> 
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
-<?php
+  
+  <?php
 if( isset($_POST['firstname'] ) && isset( $_POST['lastname'] ) )
 {
     $txt= $_POST['firstname'].' - '.$_POST['lastname'] . PHP_EOL; 
     file_put_contents('fields.txt', $txt, FILE_APPEND);
 }
 ?>
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 </body>
 </html>
